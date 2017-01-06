@@ -9,13 +9,33 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GCKLoggerDelegate  {
 
     var window: UIWindow?
-
-
+    let kReceiverAppID:String = "56870825";
+    let kDebugLoggingEnabled:Bool = true;
+    
+    
+    //
+    //    GCKCastOptions *options =
+    //        [[GCKCastOptions alloc] initWithReceiverApplicationID:kReceiverAppID];
+    //    [GCKCastContext setSharedInstanceWithOptions:options];
+    //
+    //    [GCKLogger sharedInstance].delegate = self;
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+       let options:GCKCastOptions = GCKCastOptions(receiverApplicationID: kReceiverAppID)
+//        
+       GCKCastContext.setSharedInstanceWith(options)
+//
+//            [[GCKCastOptions alloc] initWithReceiverApplicationID:kReceiverAppID];
+//        GCKCastContext.setSharedInstanceWithOptions:options)
+        
+
+        GCKLogger.sharedInstance().delegate = self
+
         return true
     }
 
@@ -43,4 +63,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
+
 

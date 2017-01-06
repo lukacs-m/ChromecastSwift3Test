@@ -14,6 +14,7 @@
 		5B1175DC1E1FC2E3003F257A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1175DA1E1FC2E3003F257A /* LaunchScreen.storyboard */; };
 		5B1175E71E1FC2E3003F257A /* ChromecasttestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1175E61E1FC2E3003F257A /* ChromecasttestTests.swift */; };
 		5B1175F21E1FC2E3003F257A /* ChromecasttestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1175F11E1FC2E3003F257A /* ChromecasttestUITests.swift */; };
+		D605D966411A7D90F68716FE /* Pods_Chromecasttest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E5F679FF2254D6D80438D9 /* Pods_Chromecasttest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,10 @@
 		5B1175ED1E1FC2E3003F257A /* ChromecasttestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromecasttestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1175F11E1FC2E3003F257A /* ChromecasttestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromecasttestUITests.swift; sourceTree = "<group>"; };
 		5B1175F31E1FC2E3003F257A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B1175FF1E1FE468003F257A /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		60A9D0F8B12F7E00706C06A0 /* Pods-Chromecasttest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chromecasttest.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chromecasttest/Pods-Chromecasttest.release.xcconfig"; sourceTree = "<group>"; };
+		77E5F679FF2254D6D80438D9 /* Pods_Chromecasttest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chromecasttest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D30FA58EBE3806A4EE6582D /* Pods-Chromecasttest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chromecasttest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chromecasttest/Pods-Chromecasttest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D605D966411A7D90F68716FE /* Pods_Chromecasttest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C3D6945381B65D86271E783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77E5F679FF2254D6D80438D9 /* Pods_Chromecasttest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B1175C51E1FC2E2003F257A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +95,8 @@
 				5B1175E51E1FC2E3003F257A /* ChromecasttestTests */,
 				5B1175F01E1FC2E3003F257A /* ChromecasttestUITests */,
 				5B1175CF1E1FC2E3003F257A /* Products */,
+				CCFE937FB5EB3BF0967981CB /* Pods */,
+				4C3D6945381B65D86271E783 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +119,7 @@
 				5B1175D81E1FC2E3003F257A /* Assets.xcassets */,
 				5B1175DA1E1FC2E3003F257A /* LaunchScreen.storyboard */,
 				5B1175DD1E1FC2E3003F257A /* Info.plist */,
+				5B1175FF1E1FE468003F257A /* BridgingHeader.h */,
 			);
 			path = Chromecasttest;
 			sourceTree = "<group>";
@@ -125,6 +142,15 @@
 			path = ChromecasttestUITests;
 			sourceTree = "<group>";
 		};
+		CCFE937FB5EB3BF0967981CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D30FA58EBE3806A4EE6582D /* Pods-Chromecasttest.debug.xcconfig */,
+				60A9D0F8B12F7E00706C06A0 /* Pods-Chromecasttest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B1175F61E1FC2E3003F257A /* Build configuration list for PBXNativeTarget "Chromecasttest" */;
 			buildPhases = (
+				331DC72DA5AB67D846D2389F /* [CP] Check Pods Manifest.lock */,
 				5B1175CA1E1FC2E2003F257A /* Sources */,
 				5B1175CB1E1FC2E2003F257A /* Frameworks */,
 				5B1175CC1E1FC2E2003F257A /* Resources */,
+				B33C411EC87D3A75E9653E0B /* [CP] Embed Pods Frameworks */,
+				C27BC4D39C48FAFEDAC05106 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +282,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		331DC72DA5AB67D846D2389F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B33C411EC87D3A75E9653E0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chromecasttest/Pods-Chromecasttest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27BC4D39C48FAFEDAC05106 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chromecasttest/Pods-Chromecasttest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B1175CA1E1FC2E2003F257A /* Sources */ = {
@@ -410,24 +487,28 @@
 		};
 		5B1175F71E1FC2E3003F257A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D30FA58EBE3806A4EE6582D /* Pods-Chromecasttest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Chromecasttest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chromecasttest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Chromecasttest/BridgingHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5B1175F81E1FC2E3003F257A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A9D0F8B12F7E00706C06A0 /* Pods-Chromecasttest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Chromecasttest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chromecasttest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Chromecasttest/BridgingHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +586,7 @@
 				5B1175F81E1FC2E3003F257A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B1175F91E1FC2E3003F257A /* Build configuration list for PBXNativeTarget "ChromecasttestTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +595,7 @@
 				5B1175FB1E1FC2E3003F257A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B1175FC1E1FC2E3003F257A /* Build configuration list for PBXNativeTarget "ChromecasttestUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +604,7 @@
 				5B1175FE1E1FC2E3003F257A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

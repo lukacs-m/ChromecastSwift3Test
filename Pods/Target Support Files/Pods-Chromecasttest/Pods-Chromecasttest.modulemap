@@ -1,0 +1,6 @@
+framework module Pods_Chromecasttest {
+  umbrella header "Pods-Chromecasttest-umbrella.h"
+
+  export *
+  module * { export * }
+}
