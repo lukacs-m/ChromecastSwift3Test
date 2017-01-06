@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B1175D21E1FC2E3003F257A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1175D11E1FC2E3003F257A /* AppDelegate.swift */; };
+		5B1175D41E1FC2E3003F257A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1175D31E1FC2E3003F257A /* ViewController.swift */; };
+		5B1175D71E1FC2E3003F257A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1175D51E1FC2E3003F257A /* Main.storyboard */; };
+		5B1175D91E1FC2E3003F257A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1175D81E1FC2E3003F257A /* Assets.xcassets */; };
+		5B1175DC1E1FC2E3003F257A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1175DA1E1FC2E3003F257A /* LaunchScreen.storyboard */; };
+		5B1175E71E1FC2E3003F257A /* ChromecasttestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1175E61E1FC2E3003F257A /* ChromecasttestTests.swift */; };
+		5B1175F21E1FC2E3003F257A /* ChromecasttestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1175F11E1FC2E3003F257A /* ChromecasttestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B1175E31E1FC2E3003F257A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B1175C61E1FC2E2003F257A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B1175CD1E1FC2E2003F257A;
+			remoteInfo = Chromecasttest;
+		};
+		5B1175EE1E1FC2E3003F257A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B1175C61E1FC2E2003F257A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B1175CD1E1FC2E2003F257A;
+			remoteInfo = Chromecasttest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B1175CE1E1FC2E3003F257A /* Chromecasttest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chromecasttest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1175D11E1FC2E3003F257A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B1175D31E1FC2E3003F257A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B1175D61E1FC2E3003F257A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B1175D81E1FC2E3003F257A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B1175DB1E1FC2E3003F257A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B1175DD1E1FC2E3003F257A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B1175E21E1FC2E3003F257A /* ChromecasttestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromecasttestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1175E61E1FC2E3003F257A /* ChromecasttestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromecasttestTests.swift; sourceTree = "<group>"; };
+		5B1175E81E1FC2E3003F257A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B1175ED1E1FC2E3003F257A /* ChromecasttestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromecasttestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1175F11E1FC2E3003F257A /* ChromecasttestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromecasttestUITests.swift; sourceTree = "<group>"; };
+		5B1175F31E1FC2E3003F257A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B1175CB1E1FC2E2003F257A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1175DF1E1FC2E3003F257A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1175EA1E1FC2E3003F257A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1175C51E1FC2E2003F257A = {
+			isa = PBXGroup;
+			children = (
+				5B1175D01E1FC2E3003F257A /* Chromecasttest */,
+				5B1175E51E1FC2E3003F257A /* ChromecasttestTests */,
+				5B1175F01E1FC2E3003F257A /* ChromecasttestUITests */,
+				5B1175CF1E1FC2E3003F257A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B1175CF1E1FC2E3003F257A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B1175CE1E1FC2E3003F257A /* Chromecasttest.app */,
+				5B1175E21E1FC2E3003F257A /* ChromecasttestTests.xctest */,
+				5B1175ED1E1FC2E3003F257A /* ChromecasttestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B1175D01E1FC2E3003F257A /* Chromecasttest */ = {
+			isa = PBXGroup;
+			children = (
+				5B1175D11E1FC2E3003F257A /* AppDelegate.swift */,
+				5B1175D31E1FC2E3003F257A /* ViewController.swift */,
+				5B1175D51E1FC2E3003F257A /* Main.storyboard */,
+				5B1175D81E1FC2E3003F257A /* Assets.xcassets */,
+				5B1175DA1E1FC2E3003F257A /* LaunchScreen.storyboard */,
+				5B1175DD1E1FC2E3003F257A /* Info.plist */,
+			);
+			path = Chromecasttest;
+			sourceTree = "<group>";
+		};
+		5B1175E51E1FC2E3003F257A /* ChromecasttestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B1175E61E1FC2E3003F257A /* ChromecasttestTests.swift */,
+				5B1175E81E1FC2E3003F257A /* Info.plist */,
+			);
+			path = ChromecasttestTests;
+			sourceTree = "<group>";
+		};
+		5B1175F01E1FC2E3003F257A /* ChromecasttestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B1175F11E1FC2E3003F257A /* ChromecasttestUITests.swift */,
+				5B1175F31E1FC2E3003F257A /* Info.plist */,
+			);
+			path = ChromecasttestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B1175CD1E1FC2E2003F257A /* Chromecasttest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1175F61E1FC2E3003F257A /* Build configuration list for PBXNativeTarget "Chromecasttest" */;
+			buildPhases = (
+				5B1175CA1E1FC2E2003F257A /* Sources */,
+				5B1175CB1E1FC2E2003F257A /* Frameworks */,
+				5B1175CC1E1FC2E2003F257A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chromecasttest;
+			productName = Chromecasttest;
+			productReference = 5B1175CE1E1FC2E3003F257A /* Chromecasttest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B1175E11E1FC2E3003F257A /* ChromecasttestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1175F91E1FC2E3003F257A /* Build configuration list for PBXNativeTarget "ChromecasttestTests" */;
+			buildPhases = (
+				5B1175DE1E1FC2E3003F257A /* Sources */,
+				5B1175DF1E1FC2E3003F257A /* Frameworks */,
+				5B1175E01E1FC2E3003F257A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B1175E41E1FC2E3003F257A /* PBXTargetDependency */,
+			);
+			name = ChromecasttestTests;
+			productName = ChromecasttestTests;
+			productReference = 5B1175E21E1FC2E3003F257A /* ChromecasttestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B1175EC1E1FC2E3003F257A /* ChromecasttestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1175FC1E1FC2E3003F257A /* Build configuration list for PBXNativeTarget "ChromecasttestUITests" */;
+			buildPhases = (
+				5B1175E91E1FC2E3003F257A /* Sources */,
+				5B1175EA1E1FC2E3003F257A /* Frameworks */,
+				5B1175EB1E1FC2E3003F257A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B1175EF1E1FC2E3003F257A /* PBXTargetDependency */,
+			);
+			name = ChromecasttestUITests;
+			productName = ChromecasttestUITests;
+			productReference = 5B1175ED1E1FC2E3003F257A /* ChromecasttestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B1175C61E1FC2E2003F257A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Martin Lukacs";
+				TargetAttributes = {
+					5B1175CD1E1FC2E2003F257A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					5B1175E11E1FC2E3003F257A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B1175CD1E1FC2E2003F257A;
+					};
+					5B1175EC1E1FC2E3003F257A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B1175CD1E1FC2E2003F257A;
+					};
+				};
+			};
+			buildConfigurationList = 5B1175C91E1FC2E2003F257A /* Build configuration list for PBXProject "Chromecasttest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B1175C51E1FC2E2003F257A;
+			productRefGroup = 5B1175CF1E1FC2E3003F257A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B1175CD1E1FC2E2003F257A /* Chromecasttest */,
+				5B1175E11E1FC2E3003F257A /* ChromecasttestTests */,
+				5B1175EC1E1FC2E3003F257A /* ChromecasttestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B1175CC1E1FC2E2003F257A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1175DC1E1FC2E3003F257A /* LaunchScreen.storyboard in Resources */,
+				5B1175D91E1FC2E3003F257A /* Assets.xcassets in Resources */,
+				5B1175D71E1FC2E3003F257A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1175E01E1FC2E3003F257A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1175EB1E1FC2E3003F257A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B1175CA1E1FC2E2003F257A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1175D41E1FC2E3003F257A /* ViewController.swift in Sources */,
+				5B1175D21E1FC2E3003F257A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1175DE1E1FC2E3003F257A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1175E71E1FC2E3003F257A /* ChromecasttestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1175E91E1FC2E3003F257A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1175F21E1FC2E3003F257A /* ChromecasttestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B1175E41E1FC2E3003F257A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B1175CD1E1FC2E2003F257A /* Chromecasttest */;
+			targetProxy = 5B1175E31E1FC2E3003F257A /* PBXContainerItemProxy */;
+		};
+		5B1175EF1E1FC2E3003F257A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B1175CD1E1FC2E2003F257A /* Chromecasttest */;
+			targetProxy = 5B1175EE1E1FC2E3003F257A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B1175D51E1FC2E3003F257A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1175D61E1FC2E3003F257A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B1175DA1E1FC2E3003F257A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1175DB1E1FC2E3003F257A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B1175F41E1FC2E3003F257A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B1175F51E1FC2E3003F257A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B1175F71E1FC2E3003F257A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chromecasttest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chromecasttest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5B1175F81E1FC2E3003F257A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chromecasttest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chromecasttest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5B1175FA1E1FC2E3003F257A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChromecasttestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChromecasttestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chromecasttest.app/Chromecasttest";
+			};
+			name = Debug;
+		};
+		5B1175FB1E1FC2E3003F257A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChromecasttestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChromecasttestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chromecasttest.app/Chromecasttest";
+			};
+			name = Release;
+		};
+		5B1175FD1E1FC2E3003F257A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChromecasttestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChromecasttestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Chromecasttest;
+			};
+			name = Debug;
+		};
+		5B1175FE1E1FC2E3003F257A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChromecasttestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChromecasttestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Chromecasttest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B1175C91E1FC2E2003F257A /* Build configuration list for PBXProject "Chromecasttest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1175F41E1FC2E3003F257A /* Debug */,
+				5B1175F51E1FC2E3003F257A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1175F61E1FC2E3003F257A /* Build configuration list for PBXNativeTarget "Chromecasttest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1175F71E1FC2E3003F257A /* Debug */,
+				5B1175F81E1FC2E3003F257A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B1175F91E1FC2E3003F257A /* Build configuration list for PBXNativeTarget "ChromecasttestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1175FA1E1FC2E3003F257A /* Debug */,
+				5B1175FB1E1FC2E3003F257A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B1175FC1E1FC2E3003F257A /* Build configuration list for PBXNativeTarget "ChromecasttestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1175FD1E1FC2E3003F257A /* Debug */,
+				5B1175FE1E1FC2E3003F257A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B1175C61E1FC2E2003F257A /* Project object */;
+}
